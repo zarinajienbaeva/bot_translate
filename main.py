@@ -11,7 +11,7 @@ translator = Translator()
 
 async def main():
     print("I am starting ...")
-    dp.include_routers(router)
+    dp.include_router(router)
     await dp.start_polling(my_bot)
 
 if __name__ == "__main__":
