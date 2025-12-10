@@ -4,10 +4,10 @@ from config import token
 from routers import router
 import asyncio
 
-
 my_bot = Bot(token=str(token))
 dp = Dispatcher()
 translator = Translator()
+
 
 async def main():
     print("I am starting ...")
